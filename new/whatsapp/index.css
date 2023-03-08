@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url('https://w0.peakpx.com/wallpaper/818/148/HD-wallpaper-whatsapp-background-cool-dark-green-new-theme-whatsapp.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background:url(https://i.pinimg.com/564x/8c/98/99/8c98994518b575bfd8c949e91d20548b.jpg);
+    border: 2px solid rgba(4, 61, 37, 0.955);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+h2{
+    font-size: 2em;
+    color:rgb(10, 70, 70);
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #036568;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(10, 70, 70);
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:focus ~ :valid{
+    top: -5px;
+}
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    border:none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color:#034b4b;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color:#07473a;
+    font-size: 1.2em;
+    top:20px;
+}
+.forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color:#0b494b;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.forget label input{
+    margin-right: 3px;
+
+}
+.forget label a{
+    color: #033b2e;
+    text-decoration:none;
+    font-weight: 600;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background:#fff;
+    border: solid 0.5 #033b2e;
+    outline: 1rem;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register{
+    font-size: .9em;
+    color: #034b4b;
+    text-align: center;
+    margin: 25px 0 10px;
+
+}
+.register p a{
+    text-decoration: none;
+    color:#033b2e;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
